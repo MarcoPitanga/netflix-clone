@@ -2,7 +2,7 @@
 
 Um clone simples da Netflix feito com React JS e consumindo uma API de videos.
 
-Site do Projeto - <a href="https://clinquant-frangipane-b11faa.netlify.app/" target="_blank">link</a>
+Site do Projeto - https://clinquant-frangipane-b11faa.netlify.app/
 
 ### API
 * Nome - The Movie DB

@@ -23,7 +23,7 @@ export const Banner = () => {
   }, [])
 
   function truncate(str, n) {
-    return str?.length > n ? str.subtr(0, n - 1) + '...' : str
+    return str?.length > n ? str.substring(0, n - 1) + '...' : str
   }
 
   return (
@@ -41,7 +41,7 @@ export const Banner = () => {
           <button className="banner-button">Assistir</button>
           <button className="banner-button">Minha Lista</button>
         </div>
-        <div className="banner-description">{truncate(movie?.overview)}</div>
+        <h2 className="banner-description">{truncate(movie?.overview, 150)}</h2>
       </div>
     </header>
   )
